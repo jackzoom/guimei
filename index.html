@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+</head>
+
+<body>
+<div id="head">
+  <div id="subnav">
+    <ul>
+      <li class="pic"></li>
+      <li><a href="cart.html">购物车</a></li>
+      <li id="pic1" class="pic"></li>
+      <li><a href="help.html">帮助中心</a></li>
+      <li id="pic2" class="pic"></li>
+      <li><a href="#">加入收藏</a></li>
+      <li id="pic3" class="pic"></li>
+      <li><a href="#">设为首页</a></li>
+      <li>
+        <form action="log.html" method="post">
+          <input type="submit" value="登录"  />
+        </form>
+      </li>
+      <li>
+        <form action="reg.html" method="post">
+          <input type="submit" value="注册"  />
+        </form>
+      </li>
+    </ul>
+  </div>
+  <div id="welcome">
+  欢迎来到贵美商城！！！
+  <span id="showtime"></span>
+  <script type="text/javascript">
+  	
+  	window.onload=function(){
+  		var i=0;
+  		var dom=document.getElementById("showtime");
+  		var year, month,day,hours,minute,second;
+  		function clock(){
+  			var today=new Date();
+  			year=today.getFullYear();
+  			month=today.getMonth()+1;
+  			day=today.getDate();
+  			hour=today.getHours();
+  			minute=today.getMinutes();
+  			second=today.getSeconds();
+  		}
+  		setInterval(function(){
+  			clock();
+  			dom.innerHTML=year+"年"+month+"月"+day+"日"+hour+"点"+minute+"分"+second+"秒";
+  		},1000)
+  	}
+
+
+</script>
+</div>
+  <div id="nav">
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="goodslist.html">家用电器</a></li>
+      <li><a href="goodslist.html">手机数码</a></li>
+      <li><a href="goodslist.html">日用百货</a></li>
+      <li><a href="goodslist.html">书籍</a></li>
+      <li><a href="help.html">帮助中心</a></li>
+      <li><a href="goodslist.html">免费开店</a></li>
+      <li><a href="goodslist.html">全球资讯</a></li>
+    </ul>
+  </div>
+</div>
+<div id="main">
+<div id="sidebar_a">
+  <ul>
+    <li class="goodstype"><a href="goodslist.html">家用电器</a></li>
+    <li><a href="goods.html">大家电</a></li>
+    <li><a href="goods.html">洗衣机</a></li>
+    <li><a href="goods.html">平板电视</a></li>
+    <li><a href="goods.html">电热水器</a></li>
+    <li><a href="goods.html">家庭音响</a></li>
+    <li><a href="goods.html">热水器</a></li>
+    <li><a href="goods.html">空调冰箱</a></li>
+    <li><a href="goods.html">冰柜</a></li>
+    <li><a href="goods.html">DVD</a></li>
+    <li><a href="goods.html">电视附件</a></li>
+    <li><a href="goods.html">电燃气</a></li>
+    <li><a href="goods.html">家电下乡</a></li>
+    <li><a href="goods.html">家电服务</a></li>
+    <li><a href="goods.html">电饭煲</a></li>
+    <li><a href="goods.html">摄像机</a></li>
+    <li class="goodstype"><a href="goodslist.html">书籍</a></li>
+    <li><a href="goods.html">大家电</a></li>
+    <li><a href="goods.html">洗衣机</a></li>
+    <li><a href="goods.html">平板电视</a></li>
+    <li><a href="goods.html">电热水器</a></li>
+    <li><a href="goods.html">家庭音响</a></li>
+    <li><a href="goods.html">热水器</a></li>
+    <li><a href="goods.html">空调冰箱</a></li>
+    <li><a href="goods.html">冰柜</a></li>
+    <li><a href="goods.html">DVD</a></li>
+    <li><a href="goods.html">电视附件</a></li>
+    <li><a href="goods.html">电燃气</a></li>
+    <li><a href="goods.html">家电下乡</a></li>
+    <li><a href="goods.html">家电服务</a></li>
+    <li><a href="goods.html">电饭煲</a></li>
+    <li><a href="goods.html">摄像机</a></li>
+    <li class="goodstype"><a href="goodslist.html">手机数码</a></li>
+    <li><a href="goods.html">大家电</a></li>
+    <li><a href="goods.html">洗衣机</a></li>
+    <li><a href="goods.html">平板电视</a></li>
+    <li><a href="goods.html">电热水器</a></li>
+    <li><a href="goods.html">家庭音响</a></li>
+    <li><a href="goods.html">热水器</a></li>
+    <li><a href="goods.html">空调冰箱</a></li>
+    <li><a href="goods.html">冰柜</a></li>
+    <li><a href="goods.html">DVD</a></li>
+    <li><a href="goods.html">电视附件</a></li>
+    <li><a href="goods.html">电燃气</a></li>
+    <li><a href="goods.html">家电下乡</a></li>
+    <li><a href="goods.html">家电服务</a></li>
+    <li><a href="goods.html">电饭煲</a></li>
+    <li><a href="goods.html">摄像机</a></li>
+    <li class="goodstype"><a href="goodslist.html">日用百货</a></li>
+    <li><a href="goods.html">大家电</a></li>
+    <li><a href="goods.html">洗衣机</a></li>
+    <li><a href="goods.html">平板电视</a></li>
+    <li><a href="goods.html">电热水器</a></li>
+    <li><a href="goods.html">家庭音响</a></li>
+    <li><a href="goods.html">热水器</a></li>
+    <li><a href="goods.html">空调冰箱</a></li>
+    <li><a href="goods.html">冰柜</a></li>
+    <li><a href="goods.html">DVD</a></li>
+    <li><a href="goods.html">电视附件</a></li>
+    <li><a href="goods.html">电燃气</a></li>
+    <li><a href="goods.html">家电下乡</a></li>
+    <li><a href="goods.html">家电服务</a></li>
+    <li><a href="goods.html">电饭煲</a></li>
+    <li><a href="goods.html">摄像机</a></li>
+  </ul>
+</div>
+<div id="content">
+  <div id="scroll"> <img src="images/ad-01.jpg" /> </div>
+  <div id="goods">
+    <dl>
+      <dt><a href="goods.html"><img src="images/promote-1.jpg" /></a></dt>
+      <dd><a href="goods.html">惠普商务移动应用英寸笔记本</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/promote-2.jpg" /></a></dt>
+      <dd><a href="goods.html">夏新N6 GPS真人语音导航手机超低特价疯抢数量有限！</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/promote-3.jpg" /></a></dt>
+      <dd><a href="goods.html">三星家庭影院HT-TZ325购机送好礼（超值性价比）</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/laser-pen.jpg" /></a></dt>
+      <dd><a href="goods.html">明基MP512投影机2899元 送100元京卷SVGA 2200流明</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/mouse.jpg" /></a></dt>
+      <dd><a href="goods.html">罗技数据1TB移动鼠标729元开抢了！</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/earphone.jpg" /></a></dt>
+      <dd><a href="goods.html">海森那尔极品耳机绝对不容错过！</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/Wancom.jpg" /></a></dt>
+      <dd><a href="goods.html">亚马逊随时阅读，时尚最佳选择！</a> </dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/Frame.jpg" /></a></dt>
+      <dd><a href="goods.html">优雅相框</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="goods.html"><img src="images/notebook.jpg" /></a></dt>
+      <dd><a href="goods.html">IBM 2009最新上网本，特色尽显</a></dd>
+    </dl>
+  </div>
+</div>
+<div id="sidebar_b">
+  <div id="right">
+    <ul class="message" style="list-style:none;">
+      <li><a href="goods.html"><img src="images/show1.jpg"></a><a href="goods.html">打牌狂降价，三折直送</a></li>
+      <li><a href="goods.html"><img src="images/show2.jpg"></a><a href="goods.html">大学要求老师开网店</a></li>
+      <li><a href="goods.html"><img src="images/show3.jpg"></a><a href="goods.html">黑眼圈推荐，美白不停</a></li>
+      <li><a href="goods.html"><img src="images/show4.jpg"></a><a href="goods.html">瘦身狂潮风，修形之选</a></li>
+    </ul>
+  </div>
+<div id="discount">
+	<form action="#" method="post">
+
+	<ul id="tab1">
+    	<li>
+        
+        	运营商
+            <select>
+            <option>移动</option>
+            <option>联通</option>
+            <option>电信</option>
+            </select><br />
+            地&nbsp;区
+            <select>
+            <option>浙江</option>
+            <option>湖北</option>
+            <option>广东</option>
+            </select>
+            <br />
+            面&nbsp;值
+            <select>
+            <option>50元</option>
+            <option>100元</option>
+            <option>200元</option>
+            </select>
+            <br />
+            <input type="submit" value="查看折扣价" />
+        </li>
+    </ul>
+    <ul id="tab2">
+    	<li><img src="images/tab2.gif" /></li>
+    </ul>
+    </form>
+</div>
+
+
+</div>
+
+
+
+<div style="clear:both"></div>
+<div id="foot">
+  <ul>
+    <li class="foot_li"><b>友情链接:</b></li>
+    <li class="foot_li"><a href="www.baidu.com">百度</a></li>
+    <li><a href="#">Goole</a></li>
+    <li><a href="#">雅虎</a></li>
+    <li><a href="#">淘宝</a></li>
+    <li><a href="#">拍拍</a></li>
+    <li><a href="#">易趣</a></li>
+    <li><a href="#">当当</a></li>
+    <li><a href="#">京东</a></li>
+    <li><a href="#">迅雷</a></li>
+    <li><a href="#">新浪</a></li>
+    <li><a href="#">网易</a></li>
+    <li><a href="#">搜狐</a></li>
+    <li><a href="#">开心网</a></li>
+    <li><a href="#">新华网</a></li>
+    <li><a href="#">凤凰网</a></li>
+    <li><a href="#">赶集网</a></li>
+  </ul>
+</div>
+<hr />
+<div id="siteinfo">
+  <PRE>
+            COPYRIGHT @ 2003-2010 北京市贵美商城有限公司 ALL RIGHT RESERVED
+             热线： 400-66-13060 email：service@prd.com
+             ICP: 沪ICP备05021104号
+             <img src="images/img1.gif"><img src="images/img2.gif"><img src="images/img3.gif"><img src="images/img4.gif">
+
+         </PRE>
+</div>
+</body>
+</html>
